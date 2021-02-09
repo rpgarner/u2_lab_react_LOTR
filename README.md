@@ -1,17 +1,29 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)  Lord of the Rings Exercise
+# React Lord of the Rings 
 
+![the ring](https://www.denofgeek.com/wp-content/uploads/2017/11/lotr_1.jpg)
+
+
+## Overview
 Let's build something small to reinforce what you've learned so far. We're going
 to practice creating components and passing information into them.
 
 We'll build a simple website that shows title and runtime information about the
 original Lord of the Rings Trilogy.
 
-Specifically, at the end of this lab, your solution will look like this:
+## Objectives
+
+
+## What You'll Be Building
+
+At the end of this lab, your solution will look like this:
+
 ![Lord of the Rings movie info](https://github.com/WDI-SEA/react_intro_global/blob/master/images/lotr.png)
 
-### Setup
+## Getting Started
 Create a new react app called `lord-of-the-rings`:
 
+
+## Instructions
 ### Create A Simple Movie Component
 Inside of `./src` folder, create a new React Component file called `Movie.js`.
 
