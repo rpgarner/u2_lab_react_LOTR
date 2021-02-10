@@ -24,9 +24,11 @@ You'll be building a website in this lab with a header and 3 movies. Here is an 
 
 ## Instructions
 ### Setup
-- First we'll need to clear out the initial `App.js` boilerplate component inside `src` and replace it with something more suitable.
-- We'll keep the `<header>` for now since we'll be adding a title to it later, and add a `<main>` below it as a wrapper for our movie content.
-- Your `App.js` should look like this when you've finished:
+First we'll need to clear out the initial `App.js` boilerplate component inside `src` and replace it with something more suitable.
+
+We'll keep the `<header>` for now since we'll be adding a title to it later, and add a `<main>` below it as a wrapper for our movie content.
+
+Your `App.js` should look like this when you've finished:
 ```jsx
 import React from 'react';
 import './App.css';
@@ -49,23 +51,22 @@ export default App;
 
 ___
 ### Create A Simple Movie Component
-- Inside of the `./src` folder, create a new directory called `components`. The `components` directory is typically where you'll add components in a React project to organize your files.
-- Inside of the `components` folder, create a new React Component file called `Movie.js`.
-- Add some JSX to the render function so this component will be visible in
-our application. 
-- Let's keep the JSX simple for now, and we'll make it more
-complex once we're sure it works.
+Inside of the `./src` folder, create a new directory called `components`. The `components` directory is typically where you'll add components in a React project to organize your files. Inside of the `components` folder, create a new React Component file called `Movie.js`.
 
-Remember, our goal is to display the movie poster, title, and runtime information. 
-- Let's add one `<h1>` for the movie title, one `<img>` for the poster, and a `<p>` for the runtime.
+Add some JSX inside return of the render function so this component will be visible in
+our application. 
+
+Let's keep the JSX simple for now, and we'll make it more
+complex once we're sure it works. Remember, our goal is to display the movie poster, title, and runtime information. 
+
+Let's add one `<h1>` for the movie title, one `<img>` for the poster, and a `<p>` for the runtime.
 
 ___
 ### Viewing the Component
 
 - Open `src/App.js`.
-
-Add the `<Movie />` component just after the paragraph. Go back to the
-app and see if it appears.
+- Add the `<Movie />` inside of `<main>`. 
+- Open the app in your browser with `npm start` if you haven't already to see if it is rendering.
 
 ___
 ### Dealing with Errors
@@ -78,6 +79,8 @@ Failed to compile
 ```
 
 `'Movie'` is not defined? Ah.
+
+![simply](https://i.imgflip.com/4xizpf.jpg)
 
 One does not simply refer to components in React. In our `src/App.js`, we're saying "Display what's returned from the `Movie` component." However - we haven't told `src/Apps.js` where to find the `Movie` component! 
 
