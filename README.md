@@ -64,12 +64,10 @@ Let's add one `<h1>` for the movie title, one `<img>` for the poster, and a `<p>
 ___
 ### Viewing the Component
 
-- Open `src/App.js`.
-- Add the `<Movie />` inside of `<main>`. 
-- Open the app in your browser with `npm start` if you haven't already to see if it is rendering.
+Open `src/App.js` and add the `<Movie />` inside of `<main>`. 
 
-___
-### Dealing with Errors
+Now open the app in your browser with `npm start` if you haven't already to see if it is rendering.
+
 Uh oh. There's an error.
 
 ```
