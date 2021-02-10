@@ -11,11 +11,13 @@ We'll build a simple website that shows title and runtime information about the
 original Lord of the Rings Trilogy.
 
 ## Objectives
+- Pass data through React props into child components
+- Create a reusable component to display data from props
 
 
 ## What You'll Be Building
 
-At the end of this lab, your solution will look like this:
+You'll be building a website mockup in this lab with a header and 3 movies. Here is an example site:
 
 ![Lord of the Rings movie info](https://github.com/WDI-SEA/react_intro_global/blob/master/images/lotr.png)
 
