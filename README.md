@@ -44,10 +44,10 @@ function App() {
   );
 }
 
-
 export default App;
 ```
 
+___
 ### Create A Simple Movie Component
 - Inside of the `./src` folder, create a new directory called `components`. The `components` directory is typically where you'll add components in a React project to organize your files.
 - Inside of the `components` folder, create a new React Component file called `Movie.js`.
@@ -59,7 +59,7 @@ complex once we're sure it works.
 Remember, our goal is to display the movie poster, title, and runtime information. 
 - Let's add one `<h1>` for the movie title, one `<img>` for the poster, and a `<p>` for the runtime.
 
-
+___
 ### Viewing the Component
 
 - Open `src/App.js`.
@@ -67,6 +67,7 @@ Remember, our goal is to display the movie poster, title, and runtime informatio
 Add the `<Movie />` component just after the paragraph. Go back to the
 app and see if it appears.
 
+___
 ### Dealing with Errors
 Uh oh. There's an error.
 
@@ -85,7 +86,7 @@ Add an import statement at the top of the `src/App.js` file.
 Now you should see the page without the error message, and it should have the
 JSX from the Movie component.
 
-
+___
 ### Passing Information via Properties
 We need to make the Movie component accept information so we can use it to
 display different titles and runtimes. In the `src/App.js` file, add `title`, `hours`, and `minutes`
@@ -98,6 +99,7 @@ Update the JSX in `src/Movie.js` to access and display the value of each prop we
 
 Refresh the page and make sure everything works correctly.
 
+___
 ### Reusing the Component
 Once you've got props working for one component, then write two more!
 
