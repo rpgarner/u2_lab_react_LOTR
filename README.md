@@ -5,21 +5,20 @@
 
 ## Overview
 Let's build something small to reinforce what you've learned so far. We're going
-to practice creating components and passing information into them.
-
-We'll build a simple website that shows title and runtime information about the
-original Lord of the Rings Trilogy.
+to practice creating components and passing information into them through props. We'll be building a simple website that displays titles, movie posters, and runtime for the
+original Lord of the Rings Trilogy movies.
 
 ## Objectives
-- Pass data through React props into child components
+- Pass data through React props into child components 
 - Create a reusable component to display data from props
+
 
 
 ## What You'll Be Building
 
-You'll be building a website mockup in this lab with a header and 3 movies. Here is an example site:
+You'll be building a website in this lab with a header and 3 movies. Here is an example site:
 
-![Lord of the Rings movie info](https://github.com/WDI-SEA/react_intro_global/blob/master/images/lotr.png)
+![Lord of the Rings movie info](lotr_mock.png)
 
 ## Getting Started
 Create a new react app called `lord-of-the-rings`:
