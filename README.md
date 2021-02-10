@@ -53,6 +53,23 @@ ___
 ### Create A Simple Movie Component
 Inside of the `./src` folder, create a new directory called `components`. The `components` directory is typically where you'll add components in a React project to organize your files. Inside of the `components` folder, create a new React Component file called `Movie.js`.
 
+We'll write our `Movie` component as a class component:
+```jsx
+import React, { Component } from 'react';
+
+class Movie extends Component {
+  render() {
+    return (
+      <div>
+        
+      </div>
+    )
+  }
+}
+
+export default Movie;
+```
+
 Add some JSX inside return of the render function so this component will be visible in
 our application. 
 
@@ -73,7 +90,7 @@ Uh oh. There's an error.
 ```
 Failed to compile
 ./src/App.js
-  Line 15:  'Movie' is not defined  react/jsx-no-undef
+  Line 11:  'Movie' is not defined  react/jsx-no-undef
 ```
 
 `'Movie'` is not defined? Ah.
@@ -88,9 +105,9 @@ Now you should see the page without the error message, and it should have the
 JSX from the Movie component.
 
 ___
-### Passing Information via Properties
+### Passing Information via Properties (props)
 We need to make the Movie component accept information so we can use it to
-display different titles and runtimes. In the `src/App.js` file, add `title`, `hours`, and `minutes`
+display different titles and runtimes. In the `src/App.js` file, add `title`, `hours`, `minutes`, and `poster`
 props to the `<Movie>` tag. 
 
 We'll be able to read the value of these props from inside the component. You can name props pretty much
@@ -104,14 +121,14 @@ ___
 ### Reusing the Component
 Once you've got props working for one component, then write two more!
 
-In `src/App.js`, call the `<Movie />` component again with different values for the `title`, `hours` and `minutes`
+In `src/App.js`, call the `<Movie />` component again with different values for the `title`, `hours`, `minutes`, and `poster`.
 properties. Display information for the complete trilogy! (If you don't know everything about Lord of the Rings off the top of your head, here it is).
 
-title | hours | minutes
-------|-------|--------
-The Fellowship of the Ring | 2 | 58
-The Two Towers | 2 | 59
-The Return of the King | 3 | 21
+title | hours | minutes | poster |
+------|-------|--------|--------|
+The Fellowship of the Ring | 2 | 58 | https://image.tmdb.org/t/p/original/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg |
+The Two Towers | 2 | 59 | https://image.tmdb.org/t/p/original/rrGlNlzFTrXFNGXsD7NNlxq4BPb.jpg |
+The Return of the King | 3 | 21 | https://image.tmdb.org/t/p/original/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg |
 
 # Solution
 When you're finished, review the reflections below.
