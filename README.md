@@ -108,7 +108,14 @@ ___
 ### Passing Information via Properties (props)
 We need to make the Movie component accept information so we can use it to
 display different titles and runtimes. In the `src/App.js` file, add `title`, `hours`, `minutes`, and `poster`
-props to the `<Movie>` tag. 
+props to the `<Movie />` tag.
+
+Here is some starter data for you to add in for your `<Movie />` props.
+
+title | hours | minutes | poster |
+------|-------|--------|--------|
+The Fellowship of the Ring | 2 | 58 | https://image.tmdb.org/t/p/original/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg |
+
 
 We'll be able to read the value of these props from inside the component. You can name props pretty much
 anything you want - but it's good practice to be descriptive!
