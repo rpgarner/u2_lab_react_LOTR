@@ -4,15 +4,11 @@
 
 
 ## Overview
-Let's build something small to reinforce what you've learned so far. We're going
-to practice creating components and passing information into them through props. We'll be building a simple website that displays titles, movie posters, and runtime for the
-original Lord of the Rings Trilogy movies.
+Let's build something small to reinforce what you've learned so far. We're going to practice creating components and passing information into them through props. We'll be building a simple website that displays titles, movie posters, and runtime for the original Lord of the Rings Trilogy.
 
 ## Objectives
 - Pass data through React props into child components 
 - Create a reusable component to display data from props
-
-
 
 ## What You'll Be Building
 
@@ -21,24 +17,52 @@ You'll be building a website in this lab with a header and 3 movies. Here is an 
 ![Lord of the Rings movie info](lotr_mock.png)
 
 ## Getting Started
-Create a new react app called `lord-of-the-rings`:
+- `Fork` and `clone` this repository and `cd` into the new directory.
+- Create a new React app called `lord-of-the-rings`.
+- You'll be working in the `src` directory of this new React app.
 
 
 ## Instructions
-### Create A Simple Movie Component
-Inside of `./src` folder, create a new React Component file called `Movie.js`.
+### Setup
+- First we'll need to clear out the initial `App.js` boilerplate component inside `src` and replace it with something more suitable.
+- We'll keep the `<header>` for now since we'll be adding a title to it later, and add a `<main>` below it as a wrapper for our movie content.
+- Your `App.js` should look like this when you've finished:
+```jsx
+import React from 'react';
+import './App.css';
 
-Add some JSX to the render function so this component will be visible in
-our application. Let's keep the JSX simple for now, and we'll make it more
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        
+      </header>
+      <main>
+        
+      </main>
+    </div>
+  );
+}
+
+
+export default App;
+```
+
+### Create A Simple Movie Component
+- Inside of the `./src` folder, create a new directory called `components`. The `components` directory is typically where you'll add components in a React project to organize your files.
+- Inside of the `components` folder, create a new React Component file called `Movie.js`.
+- Add some JSX to the render function so this component will be visible in
+our application. 
+- Let's keep the JSX simple for now, and we'll make it more
 complex once we're sure it works.
 
-Remember, our goal is to display the movie title and
-runtime information. Let's add one `<h1>` for the movie title, and a `<p>` for the runtime.
+Remember, our goal is to display the movie poster, title, and runtime information. 
+- Let's add one `<h1>` for the movie title, one `<img>` for the poster, and a `<p>` for the runtime.
 
 
 ### Viewing the Component
 
-Open `src/App.js`.
+- Open `src/App.js`.
 
 Add the `<Movie />` component just after the paragraph. Go back to the
 app and see if it appears.
