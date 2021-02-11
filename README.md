@@ -144,6 +144,11 @@ Refresh the page and make sure everything works correctly.
 
 ___
 ### Reusing the Component
+
+![one ring](https://i.stack.imgur.com/9u9xO.gif)
+
+_One component to rule them all._
+
 Once you've got props working for one component, then write two more!
 
 In `src/App.js`, call the `<Movie />` component again with different values for the `title`, `hours`, `minutes`, and `poster`.
@@ -161,11 +166,6 @@ movie:
 * [Lord of the Rings: The Fellowship of the Ring](http://www.imdb.com/title/tt0120737/)
 * [Lord of the Rings: The Two Towers](http://www.imdb.com/title/tt0167261/)
 * [Lord of the Rings: The Return of the King](http://www.imdb.com/title/tt0167260/)
-
-
-### One component to rule them all!
-
-![gandalf](https://i.stack.imgur.com/9u9xO.gif)
 
 When you're finished, add style to create a Lord of The Rings themed page.
 
@@ -188,6 +188,7 @@ Building and reusing components becomes especially powerful the more complex com
 
 Building one component to rule all them all would save you a lot of time and headaches!
 
+[frodo](https://i.giphy.com/media/ldTQuMDMdh2ko/giphy.webp)
 
 ## Resources
 - [React Props Lesson](https://github.com/SEI-R-1-25/u2_lesson_react_props)
