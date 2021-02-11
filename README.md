@@ -49,9 +49,15 @@ function App() {
 export default App;
 ```
 
+Inside the `<header>` we'll create an `<h1>` for a title that says `Lord of the Rings: A Trilogy`.
+
 ___
 ### Create A Simple Movie Component
-Inside of the `./src` folder, create a new directory called `components`. The `components` directory is typically where you'll add components in a React project to organize your files. Inside of the `components` folder, create a new React Component file called `Movie.js`.
+Inside of the `src` folder, create a new directory called `components`. 
+
+The `components` directory is typically where you'll add components in a React project to organize your files. 
+
+Inside of the `components` folder, create a new React Component file called `Movie.js`.
 
 We'll write our `Movie` component as a class component:
 ```jsx
@@ -76,7 +82,12 @@ our application.
 Let's keep the JSX simple for now, and we'll make it more
 complex once we're sure it works. Remember, our goal is to display the movie poster, title, and runtime information. 
 
-Let's add one `<h1>` for the movie title, one `<img>` for the poster, and a `<p>` for the runtime.
+- Let's add one `<h1>` for the movie title, one `<img>` for the poster, and a `<p>` for the runtime.
+- In the `<h1>` and `<p>` tags add this text to start:
+```jsx
+<h1>Lord of the Rings: </h1>
+<p>Runtime: </p>
+```
 
 ___
 ### Viewing the Component
@@ -99,15 +110,20 @@ Failed to compile
 
 One does not simply refer to components in React. In our `src/App.js`, we're saying "Display what's returned from the `Movie` component." However - we haven't told `src/Apps.js` where to find the `Movie` component! 
 
-Add an import statement at the top of the `src/App.js` file.
+- Add an import statement at the top of the `src/App.js` file.
 
 Now you should see the page without the error message, and it should have the
 JSX from the Movie component.
 
 ___
 ### Passing Information via Properties (props)
+```jsx
+<Component propName={propData} />
+```
 We need to make the Movie component accept information so we can use it to
-display different titles and runtimes. In the `src/App.js` file, add `title`, `hours`, `minutes`, and `poster`
+display different titles and runtimes. 
+
+- In the `src/App.js` file, add `title`, `hours`, `minutes`, and `poster`
 props to the `<Movie />` tag.
 
 Here is some starter data for you to add in for your `<Movie />` props.
@@ -120,7 +136,8 @@ The Fellowship of the Ring | 2 | 58 | https://image.tmdb.org/t/p/original/6oom5Q
 We'll be able to read the value of these props from inside the component. You can name props pretty much
 anything you want - but it's good practice to be descriptive!
 
-Update the JSX in `src/Movie.js` to access and display the value of each prop we created.
+- Update the JSX in `src/components/Movie.js` to access and display the value of each prop we created.
+
 
 Refresh the page and make sure everything works correctly.
 
@@ -137,10 +154,14 @@ The Fellowship of the Ring | 2 | 58 | https://image.tmdb.org/t/p/original/6oom5Q
 The Two Towers | 2 | 59 | https://image.tmdb.org/t/p/original/rrGlNlzFTrXFNGXsD7NNlxq4BPb.jpg |
 The Return of the King | 3 | 21 | https://image.tmdb.org/t/p/original/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg |
 
-# Solution
-When you're finished, review the reflections below.
 
-### Reflecting on Reusability
+One component to rule them all!
+
+![gandalf](https://i.imgur.com/0h6vkTv.gif)
+
+When you're finished, add style to create a Lord of The Rings themed page.
+
+## Recap
 Components are great because they allow us to compartmentalize code and easily reuse parts we create. We simply set the value of props and the component defines how everything should be displayed.
 
 In this instance, we factored out some redundancy of the
