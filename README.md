@@ -117,14 +117,15 @@ JSX from the Movie component.
 
 ___
 ### Passing Information via Properties (props)
-```jsx
-<Component propName={propData} />
-```
 We need to make the Movie component accept information so we can use it to
 display different titles and runtimes. 
 
 - In the `src/App.js` file, add `title`, `hours`, `minutes`, and `poster`
 props to the `<Movie />` tag.
+- Remember, when adding props to a component, we need to first give the prop a name, then pass data into it. Example:
+```jsx
+<Component propName={propData} />
+```
 
 Here is some starter data for you to add in for your `<Movie />` props.
 
@@ -154,8 +155,15 @@ The Fellowship of the Ring | 2 | 58 | https://image.tmdb.org/t/p/original/6oom5Q
 The Two Towers | 2 | 59 | https://image.tmdb.org/t/p/original/rrGlNlzFTrXFNGXsD7NNlxq4BPb.jpg |
 The Return of the King | 3 | 21 | https://image.tmdb.org/t/p/original/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg |
 
+In case you want to nerd out, here are handy links to the IMDB page for each
+movie:
 
-One component to rule them all!
+* [Lord of the Rings: The Fellowship of the Ring](http://www.imdb.com/title/tt0120737/)
+* [Lord of the Rings: The Two Towers](http://www.imdb.com/title/tt0167261/)
+* [Lord of the Rings: The Return of the King](http://www.imdb.com/title/tt0167260/)
+
+
+#### One component to rule them all!
 
 ![gandalf](https://i.imgur.com/0h6vkTv.gif)
 
@@ -181,12 +189,7 @@ Building and reusing components becomes especially powerful the more complex com
 Building one component to rule all them all would save you a lot of time and headaches!
 
 
-### Internet Dive Point
-In case you want to nerd out, here are handy links to the IMDB page for each
-movie:
+## Resources
+- [React Props Lesson](https://github.com/SEI-R-1-25/u2_lesson_react_props)
+- [Intro to React Lesson](https://github.com/SEI-R-1-25/u2_lesson_react_intro)
 
-* [Lord of the Rings: The Fellowship of the Ring](http://www.imdb.com/title/tt0120737/)
-* [Lord of the Rings: The Two Towers](http://www.imdb.com/title/tt0167261/)
-* [Lord of the Rings: The Return of the King](http://www.imdb.com/title/tt0167260/)
-
-_edited from [global code-along](https://github.com/WDI-SEA/react_intro_global/blob/master/11-lotr-codealong.md)_
