@@ -189,7 +189,7 @@ Building and reusing components becomes especially powerful the more complex com
 
 Building one component to rule all them all would save you a lot of time and headaches!
 
-[frodo](https://i.giphy.com/media/ldTQuMDMdh2ko/giphy.webp)
+![frodo](https://64.media.tumblr.com/tumblr_m9p1ftCnQl1rtz7u4o1_500.gif)
 
 ## Resources
 - [React Props Lesson](https://github.com/SEI-R-1-25/u2_lesson_react_props)
