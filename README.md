@@ -111,6 +111,7 @@ Failed to compile
 One does not simply refer to components in React. In our `src/App.js`, we're saying "Display what's returned from the `Movie` component." However - we haven't told `src/Apps.js` where to find the `Movie` component! 
 
 - Add an import statement at the top of the `src/App.js` file.
+- You can use VS Code's IntelliSense to see if your path is correct as you type your import statement string.
 
 Now you should see the page without the error message, and it should have the
 JSX from the Movie component.
