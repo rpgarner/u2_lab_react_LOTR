@@ -1,6 +1,6 @@
 # React Lord of the Rings 
 
-![the ring](https://www.denofgeek.com/wp-content/uploads/2017/11/lotr_1.jpg)
+![lord of the rings](https://didyouseethatone.files.wordpress.com/2015/04/the-lord-of-the-rings-the-fellowship-of-the-ring-3.jpg)
 
 
 ## Overview
@@ -163,9 +163,9 @@ movie:
 * [Lord of the Rings: The Return of the King](http://www.imdb.com/title/tt0167260/)
 
 
-#### One component to rule them all!
+### One component to rule them all!
 
-![gandalf](https://i.imgur.com/0h6vkTv.gif)
+![gandalf](https://i.stack.imgur.com/9u9xO.gif)
 
 When you're finished, add style to create a Lord of The Rings themed page.
 
