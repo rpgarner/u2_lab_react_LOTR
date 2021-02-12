@@ -194,4 +194,4 @@ Building one component to rule all them all would save you a lot of time and hea
 ## Resources
 - [React Props Lesson](https://github.com/SEI-R-1-25/u2_lesson_react_props)
 - [Intro to React Lesson](https://github.com/SEI-R-1-25/u2_lesson_react_intro)
-
+- [Gosh!](https://www.youtube.com/watch?v=L9AJeakCa6w&ab_channel=BurtBot)
