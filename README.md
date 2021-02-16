@@ -65,6 +65,9 @@ import React, { Component } from 'react';
 
 class Movie extends Component {
   render() {
+  
+  // use this.props here
+  
     return (
       <div>
         
