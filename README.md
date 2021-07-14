@@ -13,7 +13,7 @@ Let's build something small to reinforce what you've learned so far. We're going
 
 You'll be building a website in this lab with a header and 3 movies. Here is an example site:
 
-![Lord of the Rings movie info](https://ibb.co/tQyb9Xd)
+![Lord of the Rings movie info](https://i.ibb.co/17H9k6S/lotr-mock.png)
 
 ## Getting Started
 - `Fork` and `clone` this repository and `cd` into the new directory.
