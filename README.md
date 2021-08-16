@@ -17,7 +17,7 @@ You'll be building a website in this lab with a header and 3 movies. Here is an 
 
 ## Getting Started
 - `Fork` and `clone` this repository and `cd` into the new directory.
-- You've been given starter code. `cd` into the **lord-of-the-rings** directory and run `npm i` to install dependencies.
+- You've been given starter code. Run `npm i` to install dependencies.
 - You'll be working in the `src` directory of this app.
 
 
@@ -34,7 +34,7 @@ We'll write our `Movie` component as a functional component:
 import React from 'react';
 
 const Movie = () => {
-  
+
   return (
     <div>
       
