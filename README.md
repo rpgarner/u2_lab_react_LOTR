@@ -17,7 +17,7 @@ You'll be building a website in this lab with a header and 3 movies. Here is an 
 
 ## Getting Started
 - `Fork` and `clone` this repository and `cd` into the new directory.
-- Create a new React app by running the command `npx create-react-app .`
+- Create a new React app by running the command `npx create-react-app lord-of-the-rings`
 - You'll be working in the `src` directory of this new React app.
 
 
