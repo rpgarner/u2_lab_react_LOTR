@@ -17,42 +17,13 @@ You'll be building a website in this lab with a header and 3 movies. Here is an 
 
 ## Getting Started
 - `Fork` and `clone` this repository and `cd` into the new directory.
-- Create a new React app by running the command `npx create-react-app lord-of-the-rings`
-- You'll be working in the `src` directory of this new React app.
+- You've been given starter code. Run `npm i` to install dependencies.
+- You'll be working in the `src` directory of this app.
 
 
 ## Instructions
-### Setup
-First we'll need to clear out the initial `App.js` boilerplate component inside `src` and replace it with something more suitable.
 
-We'll keep the `<header>` for now since we'll be adding a title to it later, and add a `<main>` below it as a wrapper for our movie content.
-
-Your `App.js` should look something like this when you've finished:
-```jsx
-import React from 'react';
-import './App.css';
-
-const App = () => {
-  return (
-    <div className="App">
-      <header className="App-header">
-        
-      </header>
-      <main>
-        
-      </main>
-    </div>
-  )
-};
-
-export default App;
-```
-
-Inside the `<header>` we'll create an `<h1>` for a title that says `Lord of the Rings: A Trilogy`.
-
-___
 ### Create A Simple Movie Component
-Inside of the `src` folder, create a new directory called `components`. 
 
 The `components` directory is typically where you'll add components in a React project to organize your files. 
 
@@ -63,6 +34,7 @@ We'll write our `Movie` component as a functional component:
 import React from 'react';
 
 const Movie = () => {
+
   return (
     <div>
       
