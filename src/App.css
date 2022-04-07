@@ -16,3 +16,50 @@
 img {
   height: 200px;
 }
+.movieTitle {
+  
+}
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-image: url(https://images4.alphacoders.com/860/thumb-1920-86098.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 5px solid black;
+}
+.movies {
+  color: white;
+  border: 3px solid black;
+
+}
+p {
+  background-color: #282c34;
+  margin: 5px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+footer {
+  background-image: url(https://cdn.mos.cms.futurecdn.net/e6VyYQJ9cY5GHcbhB7fqUG.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 90px;
+  font-size: 80px;
+  color: white;
+}
+ul {
+  display: flex;
+  text-align: left;
+  margin-left: 10px;
+  width: 100%;
+  height: 20px;
+}
+li {
+  display: inline-block;
+  margin-left: 30px;
+}
+img {
+  border: 3px solid white;
+}
